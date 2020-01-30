@@ -1,0 +1,68 @@
+[16:21:41] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:21:41] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:21:41] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:21:41] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:21:41] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:21:42] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[16:21:42] [Server thread/INFO]: Loading properties
+[16:21:42] [Server thread/INFO]: Default game type: SURVIVAL
+[16:21:42] [Server thread/INFO]: Generating keypair
+[16:21:42] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Nieprawid³owe dojœcie
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_231]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_231]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_231]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_231]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_231]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_231]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_231]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_231]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_231]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_231]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_231]
+	at wd$2.run(SourceFile:110) [server.jar:?]
+[16:21:42] [Server thread/INFO]: Starting Minecraft server on 192.168.1.6:25565
+[16:21:43] [Server thread/INFO]: Using default channel type
+[16:21:43] [Server thread/INFO]: Preparing level "world"
+[16:21:43] [Server thread/INFO]: Reloading ResourceManager: Default
+[16:21:44] [Server thread/INFO]: Loaded 6 recipes
+[16:21:45] [Server thread/INFO]: Loaded 825 advancements
+[16:22:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:22:02] [Server thread/INFO]: Preparing spawn area: 0%
+[16:22:02] [Server thread/INFO]: Preparing spawn area: 0%
+[16:22:02] [Server thread/INFO]: Preparing spawn area: 0%
+[16:22:02] [Server thread/INFO]: Preparing spawn area: 0%
+[16:22:02] [Server thread/INFO]: Preparing spawn area: 0%
+[16:22:06] [Server-Worker-2/INFO]: Preparing spawn area: 83%
+[16:22:06] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[16:22:06] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[16:22:06] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[16:22:06] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[16:22:06] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[16:22:06] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[16:22:06] [Server-Worker-3/INFO]: Preparing spawn area: 83%
+[16:22:07] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[16:22:07] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[16:22:08] [Server-Worker-3/INFO]: Preparing spawn area: 83%
+[16:22:08] [Server-Worker-3/INFO]: Preparing spawn area: 83%
+[16:22:09] [Server-Worker-1/INFO]: Preparing spawn area: 84%
+[16:22:09] [Server-Worker-1/INFO]: Preparing spawn area: 90%
+[16:22:10] [Server-Worker-1/INFO]: Preparing spawn area: 90%
+[16:22:10] [Server-Worker-1/INFO]: Preparing spawn area: 90%
+[16:22:11] [Server-Worker-3/INFO]: Preparing spawn area: 90%
+[16:22:11] [Server-Worker-2/INFO]: Preparing spawn area: 92%
+[16:22:12] [Server-Worker-2/INFO]: Preparing spawn area: 98%
+[16:22:12] [Server thread/INFO]: Time elapsed: 11698 ms
+[16:22:12] [Server thread/INFO]: Done (28.611s)! For help, type "help"
+[16:24:50] [Server thread/INFO]: Stopping server
+[16:24:50] [Server thread/INFO]: Saving players
+[16:24:50] [Server thread/INFO]: Saving worlds
+[16:24:50] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[16:24:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:24:52] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
+[16:24:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:24:52] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
+[16:24:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:24:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:24:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:24:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
